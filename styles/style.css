@@ -1,11 +1,190 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
     
 }
+
+body {
+    background-color: #F1F1F3;
+}
+/* Shared Designs */
 
 .fira-sans {
     font-family: "Fira Sans", sans-serif;
     font-optical-sizing: auto;
 }
+
+.design {
+    max-width: 1368px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+}
+
+.section-heading {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.cards {
+    display: flex;
+    gap: 24px;
+}
+.card {
+    border-radius: 16px;
+    background-color: white;
+    padding: 24px;
+}
+
+.card img {
+    max-width: 64px;
+    margin-bottom: 24px;
+}
+.card h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+/* Individual Designs */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31px 0px;
+    margin-bottom: 20px;
+}
+.logo h3 {
+    font-size: 32px;
+
+}
+
+.sign {
+    background-color: white;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    color: #006A50;
+}
+.banner {
+    background-color: #C6E4D6;
+    padding: 80px 59.99px;
+    display: flex;
+    gap: 64px;
+    height: 560px;
+ 
+}
+.banner h1 {
+    font-size: 56px;
+    color: #0E0E0E;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.banner h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14,14,14,0.5);
+}
+.explore {
+    padding: 17px 34px;
+}
+.pillars {
+    height: 324px;
+}
+.vision .cards {
+    margin-bottom: 32px;
+}
+.vision .card {
+    padding: 32px;
+}
+.vision .section-heading{
+    margin-bottom: 24px;
+}
+
+.vision p {
+    margin-bottom: 32px;
+}
+
+.digital {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.green {
+    background-color: #C6E4D6;
+}
+.modern {
+    background-color: #F7EBCF;;
+}
+.learn {
+    margin-top: 24px;
+    padding: 11px 20px;
+}
+
+.learn1 {
+    background-color: #5490F5;;
+}
+
+.learn2 {
+    background-color: #09A15C;;
+}
+.learn3 {
+    background-color: #FFC239;;
+}
+.comment {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    padding: 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+}
+.comment h4 {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.comment p {
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;;
+}
+
+.comment h5 {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.survey-container {
+    background-color: white;
+    padding: 32px;
+}
+
+.survey {
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgba(14,14,14);
+    font-weight: 600;
+    padding: 24px;
+    background-color: #C6E4D6;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
